@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RSS.Business.Interfaces/1.0.0": {
+        "dependencies": {
+          "RSS.Business.Models": "1.0.0",
+          "RSS.Data.Models": "1.0.0"
+        },
+        "runtime": {
+          "RSS.Business.Interfaces.dll": {}
+        }
+      },
+      "RSS.Business.Models/1.0.0": {
+        "runtime": {
+          "RSS.Business.Models.dll": {}
+        }
+      },
+      "RSS.Data.Models/1.0.0": {
+        "runtime": {
+          "RSS.Data.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RSS.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RSS.Business.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RSS.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

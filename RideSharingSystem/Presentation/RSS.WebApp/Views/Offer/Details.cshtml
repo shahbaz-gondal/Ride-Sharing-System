@@ -1,0 +1,74 @@
+﻿@*@model RSS.Business.Models.OfferModel*@
+@model dynamic
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h4>Offer's Details</h4>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            From City:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dt.FromCity
+        </dd>
+        <dt class="col-sm-2">
+            To City:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dt.ToCity
+        </dd>
+        <dt class="col-sm-2">
+            Departure Date & Time:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dt.DepartureDateTime
+        </dd>
+        <dt class="col-sm-2">
+            Fare:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dt.Cost
+        </dd>
+        <dt class="col-sm-2">
+            Status:
+        </dt>
+        <dd class="col-sm-10">
+            <span class="btn btn-success text-light">@Model.dt.Status</span>
+        </dd>
+    </dl>
+    <hr />
+    <h4>Person's Details</h4>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Full Name:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dr.FullName
+        </dd>
+        <dt class="col-sm-2">
+            Gender:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dr.Gender
+        </dd>
+        <dt class="col-sm-2">
+            Contact Number:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dr.Number
+        </dd>
+        <dt class="col-sm-2">
+            CNIC Number:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.dr.CNIC
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="GetAllOffers">Back to List</a>
+</div>

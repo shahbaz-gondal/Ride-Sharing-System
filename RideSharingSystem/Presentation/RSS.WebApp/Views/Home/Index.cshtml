@@ -1,0 +1,30 @@
+﻿@model RSS.Business.Models.UserModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="row">
+    <div class="col">
+        <img src="~/imgs/indexPic.jpg" class="img-thumbnail" alt="indexPic" height="500px" />
+    </div>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="col h-100">
+            <h4>Your Profile</h4>
+            <hr />
+            <ul class="list-group">
+                <li class="list-group-item bg-light"><b>Full Name: </b><span>@Html.DisplayFor(model => model.FullName)</span></li>
+                <li class="list-group-item"><b>Gender:    </b><span>@Html.DisplayFor(model => model.Gender)</span></li>
+                <li class="list-group-item bg-light"><b>Email:     </b><span>@Html.DisplayFor(model => model.Email)</span></li>
+                <li class="list-group-item"><b>Number:    </b><span>@Html.DisplayFor(model => model.Number)</span></li>
+                <li class="list-group-item bg-light"><b>CNIC:      </b><span>@Html.DisplayFor(model => model.CNIC)</span></li>
+            </ul>
+        </div>
+    }
+    else
+    {
+        <div class="col">
+            <img src="~/imgs/indexPic2.jpg" class="img-thumbnail" alt="indexPic2" height="500px" />
+        </div>
+    }
+</div>
+

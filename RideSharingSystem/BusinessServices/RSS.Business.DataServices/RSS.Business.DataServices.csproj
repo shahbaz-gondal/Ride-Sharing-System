@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Repositories\RSS.Data\RSS.Data.csproj" />
+    <ProjectReference Include="..\RSS.Business.Interfaces\RSS.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\RSS.Business.Models\RSS.Business.Models.csproj" />
+  </ItemGroup>
+
+</Project>

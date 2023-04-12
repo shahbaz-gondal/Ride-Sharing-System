@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RSS.WebApp
+build_property.RootNamespace = RSS.WebApp
+build_property.ProjectDir = E:\BootCamp Contour Software\BootCamp-Contour-Software\Final Project\RideSharingSystem\Presentation\RSS.WebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\BootCamp Contour Software\BootCamp-Contour-Software\Final Project\RideSharingSystem\Presentation\RSS.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Account/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Offer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Offer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Offer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Offer/GetAllOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcR2V0QWxsT2ZmZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Offer/GetmyOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcR2V0bXlPZmZlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Request/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Request/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Request/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Request/GetAllRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxHZXRBbGxSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Request/GetmyRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxHZXRteVJlcXVlc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/BootCamp Contour Software/BootCamp-Contour-Software/Final Project/RideSharingSystem/Presentation/RSS.WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-uszq6zc417

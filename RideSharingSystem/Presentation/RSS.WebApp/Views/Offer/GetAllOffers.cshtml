@@ -1,0 +1,65 @@
+﻿@model IEnumerable<RSS.Business.Models.OfferModel>
+
+@{
+    ViewData["Title"] = "All Offers";
+}
+
+<h3>All Offers</h3>
+
+<div>
+    <form asp-action="GetAllOffers">
+        <input type="text" placeholder="From City" name="fromCity" />
+        <input type="text" placeholder="To City" name="toCity" />
+        <input class="btn btn-success" type="submit" value="Search" />
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FromCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ToCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepartureDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    @if(item.Status == "Active")
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FromCity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ToCity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DepartureDateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cost)
+                    </td>
+                    <td>
+                        <span class="btn btn-success text-light">@Html.DisplayFor(modelItem => item.Status)</span>
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id=item.Id },new{@style="color:green"})
+                    </td>
+                </tr>
+            }      
+}
+    </tbody>
+</table>

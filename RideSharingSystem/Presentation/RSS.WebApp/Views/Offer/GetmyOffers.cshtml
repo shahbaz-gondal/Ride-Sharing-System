@@ -1,0 +1,65 @@
+﻿@model IEnumerable<RSS.Business.Models.OfferModel>
+
+@{
+    ViewData["Title"] = "Your Offers";
+}
+
+<h3>Your Offers</h3>
+
+<p>
+    <a asp-action="Create" class="btn btn-success btn-rounded">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FromCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ToCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepartureDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FromCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ToCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartureDateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @if (item.Status == "Active")
+                {
+                    <span class="btn btn-success text-light">@Html.DisplayFor(modelItem => item.Status)</span>
+                }
+                else
+                {
+                    <span class="btn btn-danger text-light">@Html.DisplayFor(modelItem => item.Status)</span>
+                }
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.Id},new {@style ="color:green"}) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id },new {@style = "color:red"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,58 @@
+﻿@model RSS.Business.Models.OfferModel
+
+@{
+    ViewData["Title"] = "Create Offer";
+}
+
+<h3>Create your Offer</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group"> 
+                <input asp-for="Id" class="form-control" type="hidden"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="FromCity" class="control-label"></label>
+                <input asp-for="FromCity" class="form-control" />
+                <span asp-validation-for="FromCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ToCity" class="control-label"></label>
+                <input asp-for="ToCity" class="form-control" />
+                <span asp-validation-for="ToCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartureDateTime" class="control-label"></label>
+                <input asp-for="DepartureDateTime" class="form-control" />
+                <span asp-validation-for="DepartureDateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cost" class="control-label"></label>
+                <input asp-for="Cost" class="form-control" />
+                <span asp-validation-for="Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <h6 class="mb-2 pb-1">Status: </h6>
+                @Html.DropDownListFor(model=>model.Status, new SelectList(new[] {"Active", "Expired"}),new {@class="form-control"})
+                @Html.ValidationMessageFor(model=>model.Status,"",new{@class="text-danger"})
+            </div>
+            <div class="form-group">
+                <input asp-for="UserId" value="@ViewData["Id"]" class="form-control" type="hidden" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-success mt-3 mb-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
