@@ -1,10 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.EntityFrameworkCore;
-using RSS.Business.DataServices;
-using RSS.Business.Interfaces;
-using RSS.Data;
 using RSS.Infrastructure;
-using System.Configuration;
 
 namespace RSS.WebApp
 {

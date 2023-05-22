@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RSS.Data.Interfaces\RSS.Data.Interfaces.csproj" />
     <ProjectReference Include="..\RSS.Data.Models\RSS.Data.Models.csproj" />
   </ItemGroup>
 

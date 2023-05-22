@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSS.Business.Interfaces", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSS.Infrastructure", "Infrastructure\RSS.Infrastructure\RSS.Infrastructure.csproj", "{826CDA26-FC24-4E43-82CA-B92CFE03AF07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSS.Data.Interfaces", "Repositories\RSS.Data.Interfaces\RSS.Data.Interfaces.csproj", "{C27C8D87-BB87-4059-AED6-FD5F8D8035CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{826CDA26-FC24-4E43-82CA-B92CFE03AF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{826CDA26-FC24-4E43-82CA-B92CFE03AF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{826CDA26-FC24-4E43-82CA-B92CFE03AF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27C8D87-BB87-4059-AED6-FD5F8D8035CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27C8D87-BB87-4059-AED6-FD5F8D8035CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27C8D87-BB87-4059-AED6-FD5F8D8035CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27C8D87-BB87-4059-AED6-FD5F8D8035CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{D29EEAC8-1E4D-4123-BA39-AADDF71F33E9} = {B692117A-589A-44DB-A5EE-1F366F61BA0A}
 		{959D8D1F-483C-41D2-A4F1-D0400490C6AA} = {B692117A-589A-44DB-A5EE-1F366F61BA0A}
 		{826CDA26-FC24-4E43-82CA-B92CFE03AF07} = {5A824F9B-01F9-4F06-9EDB-982602676CF1}
+		{C27C8D87-BB87-4059-AED6-FD5F8D8035CF} = {8E415E8C-EDAF-4A76-8535-9CFE21B0D886}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C53E800-D1EF-4415-BC6F-67C1D033C864}

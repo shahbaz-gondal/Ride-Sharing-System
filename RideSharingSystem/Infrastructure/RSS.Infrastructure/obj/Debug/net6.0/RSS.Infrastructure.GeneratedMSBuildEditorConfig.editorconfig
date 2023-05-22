@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RSS.Infrastructure
-build_property.ProjectDir = E:\BootCamp Contour Software\BootCamp-Contour-Software\Final Project\RideSharingSystem\Infrastructure\RSS.Infrastructure\
+build_property.ProjectDir = E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Infrastructure\RSS.Infrastructure\

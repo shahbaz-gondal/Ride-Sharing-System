@@ -1,0 +1,15 @@
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\bin\Debug\net6.0\RSS.Data.Interfaces.deps.json
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\bin\Debug\net6.0\RSS.Data.Interfaces.dll
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\bin\Debug\net6.0\RSS.Data.Interfaces.pdb
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\bin\Debug\net6.0\RSS.Data.Models.dll
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\bin\Debug\net6.0\RSS.Data.Models.pdb
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.csproj.AssemblyReference.cache
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.AssemblyInfoInputs.cache
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.AssemblyInfo.cs
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.csproj.CoreCompileInputs.cache
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.csproj.CopyComplete
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.dll
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\refint\RSS.Data.Interfaces.dll
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\RSS.Data.Interfaces.pdb
+E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\Repositories\RSS.Data.Interfaces\obj\Debug\net6.0\ref\RSS.Data.Interfaces.dll

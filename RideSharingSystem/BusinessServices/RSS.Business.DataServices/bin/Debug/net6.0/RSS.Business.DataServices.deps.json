@@ -629,10 +629,19 @@
       "RSS.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "RSS.Data.Interfaces": "1.0.0",
           "RSS.Data.Models": "1.0.0"
         },
         "runtime": {
           "RSS.Data.dll": {}
+        }
+      },
+      "RSS.Data.Interfaces/1.0.0": {
+        "dependencies": {
+          "RSS.Data.Models": "1.0.0"
+        },
+        "runtime": {
+          "RSS.Data.Interfaces.dll": {}
         }
       },
       "RSS.Data.Models/1.0.0": {
@@ -1093,6 +1102,11 @@
       "sha512": ""
     },
     "RSS.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RSS.Data.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UY0kzLfpqLUUqrhbjwbRX+K+AYSp1heGv0OUQv3pxJE2+yxB9JBbsvqycBm+H/A5KIDMi+4Y975bIDNMHT+y8w==",
+  "dgSpecHash": "vYYw+/FsJLrSes9plMoyDE7ff1cvzqEhyzs1nllb4JHvkPWuxp1d7FZ97Tuqwrr+s0PFFglhi/Uar4+jX3y2UA==",
   "success": true,
-  "projectFilePath": "E:\\BootCamp Contour Software\\BootCamp-Contour-Software\\Final Project\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj",
+  "projectFilePath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

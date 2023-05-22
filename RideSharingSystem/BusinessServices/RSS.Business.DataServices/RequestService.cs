@@ -1,19 +1,21 @@
 ﻿using RSS.Business.Interfaces;
 using RSS.Business.Models;
 using RSS.Data;
+using RSS.Data.Interfaces;
+using RSS.Data.Models;
 
 namespace RSS.Business.DataServices
 {
     public class RequestService:IRequestService
     {
-        private readonly RideSharingDbContext _DBcontext;
-        public RequestService(RideSharingDbContext DBcontext)
+        private readonly IRepository<Request> _DBcontext;
+        public RequestService(IRepository<Request> DBcontext)
         {
             _DBcontext = DBcontext;
         }
         public List<RequestModel> GetAll()
         {
-            var allRequestsList = _DBcontext.Requests.ToList();
+            var allRequestsList = _DBcontext.GetAll();
             var RequestsList = allRequestsList.Select(x => new RequestModel
             {
                 Id = x.Id,
@@ -28,7 +30,7 @@ namespace RSS.Business.DataServices
         }
         public List<RequestModel> myRequests(int userId)
         {
-            var myAllRequests = _DBcontext.Requests.Where(x => x.UserId == userId).ToList();
+            var myAllRequests = _DBcontext.Get(x => x.UserId == userId).ToList();
             var MyRequests = myAllRequests.Select(x => new RequestModel
             {
                 Id = x.Id,
@@ -45,7 +47,7 @@ namespace RSS.Business.DataServices
         {
             fromCity = fromCity.Trim().ToLower();
             toCity = toCity.Trim().ToLower();
-            var allRequests = _DBcontext.Requests.Where(x => x.FromCity.ToLower().Contains(fromCity)
+            var allRequests = _DBcontext.Get(x => x.FromCity.ToLower().Contains(fromCity)
             && x.ToCity.ToLower().Contains(toCity)).ToList();
 
             var searchRequests = allRequests.Select(x => new RequestModel
@@ -62,7 +64,7 @@ namespace RSS.Business.DataServices
         }
         public void Add(RequestModel model)
         {
-            _DBcontext.Requests.Add(new Data.Models.Request { 
+            _DBcontext.Add(new Request { 
                 Id=model.Id,
                 FromCity=model.FromCity,
                 ToCity=model.ToCity,
@@ -71,11 +73,10 @@ namespace RSS.Business.DataServices
                 Status = model.Status,
                 UserId = model.UserId
             });
-            _DBcontext.SaveChanges();
         }
         public void Update(RequestModel model)
         {
-            var entity = _DBcontext.Requests.FirstOrDefault(x => x.Id == model.Id);
+            var entity = _DBcontext.Get(x => x.Id == model.Id).FirstOrDefault();
             if(entity != null)
             {
                 entity.FromCity = model.FromCity;
@@ -84,16 +85,14 @@ namespace RSS.Business.DataServices
                 entity.Fare = model.Fare;
                 entity.Status = model.Status;
                 entity.UserId = model.UserId;
-                _DBcontext.SaveChanges();
             }
         }
         public void Delete(int id)
         {
-            var request = _DBcontext.Requests.Where(x=>x.Id==id).FirstOrDefault();
+            var request = _DBcontext.Get(x=>x.Id==id).FirstOrDefault();
             if(request != null)
             {
-                _DBcontext.Requests.Remove(request);
-                _DBcontext.SaveChanges();
+                _DBcontext.Delete(request);
             }
         }
     }

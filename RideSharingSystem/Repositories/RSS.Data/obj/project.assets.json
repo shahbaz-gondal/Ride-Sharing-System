@@ -1156,6 +1156,19 @@
           }
         }
       },
+      "RSS.Data.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RSS.Data.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RSS.Data.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RSS.Data.Interfaces.dll": {}
+        }
+      },
       "RSS.Data.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3511,6 +3524,11 @@
         "version.txt"
       ]
     },
+    "RSS.Data.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../RSS.Data.Interfaces/RSS.Data.Interfaces.csproj",
+      "msbuildProject": "../RSS.Data.Interfaces/RSS.Data.Interfaces.csproj"
+    },
     "RSS.Data.Models/1.0.0": {
       "type": "project",
       "path": "../RSS.Data.Models/RSS.Data.Models.csproj",
@@ -3522,6 +3540,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
+      "RSS.Data.Interfaces >= 1.0.0",
       "RSS.Data.Models >= 1.0.0"
     ]
   },
@@ -3531,11 +3550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BootCamp Contour Software\\BootCamp-Contour-Software\\Final Project\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
+      "projectUniqueName": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
       "projectName": "RSS.Data",
-      "projectPath": "E:\\BootCamp Contour Software\\BootCamp-Contour-Software\\Final Project\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
+      "projectPath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
       "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
-      "outputPath": "E:\\BootCamp Contour Software\\BootCamp-Contour-Software\\Final Project\\RideSharingSystem\\Repositories\\RSS.Data\\obj\\",
+      "outputPath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3552,8 +3571,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\BootCamp Contour Software\\BootCamp-Contour-Software\\Final Project\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
-              "projectPath": "E:\\BootCamp Contour Software\\BootCamp-Contour-Software\\Final Project\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
+            "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj": {
+              "projectPath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj"
+            },
+            "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
+              "projectPath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
             }
           }
         }

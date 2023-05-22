@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.2",
+          "RSS.Data.Interfaces": "1.0.0",
           "RSS.Data.Models": "1.0.0"
         },
         "runtime": {
@@ -700,6 +701,14 @@
           }
         }
       },
+      "RSS.Data.Interfaces/1.0.0": {
+        "dependencies": {
+          "RSS.Data.Models": "1.0.0"
+        },
+        "runtime": {
+          "RSS.Data.Interfaces.dll": {}
+        }
+      },
       "RSS.Data.Models/1.0.0": {
         "runtime": {
           "RSS.Data.Models.dll": {}
@@ -1188,6 +1197,11 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "RSS.Data.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "RSS.Data.Models/1.0.0": {
       "type": "project",

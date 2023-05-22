@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using RSS.Business.DataServices;
 using RSS.Business.Interfaces;
 using RSS.Data;
+using RSS.Data.Interfaces;
 
 namespace RSS.Infrastructure
 {
@@ -13,8 +14,8 @@ namespace RSS.Infrastructure
         {
             services.AddDbContext<RideSharingDbContext>(
                 options => options.UseSqlServer(configuration.GetConnectionString("DbConnection")));
-            
 
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IRequestService, RequestService>();
             services.AddScoped<IOfferService, OfferService>();
             services.AddScoped<IUserService, UserService>();
