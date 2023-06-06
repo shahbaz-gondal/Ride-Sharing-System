@@ -22,3 +22,15 @@ E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\BusinessServi
 E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\refint\RSS.Business.Models.dll
 E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.pdb
 E:\BootCamp Contour Software\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\ref\RSS.Business.Models.dll
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\bin\Debug\net6.0\RSS.Business.Models.deps.json
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\bin\Debug\net6.0\RSS.Business.Models.dll
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\bin\Debug\net6.0\RSS.Business.Models.pdb
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.csproj.AssemblyReference.cache
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.AssemblyInfoInputs.cache
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.AssemblyInfo.cs
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.csproj.CoreCompileInputs.cache
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.dll
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\refint\RSS.Business.Models.dll
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\RSS.Business.Models.pdb
+C:\Users\shahfmuh\source\repos\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.Models\obj\Debug\net6.0\ref\RSS.Business.Models.dll

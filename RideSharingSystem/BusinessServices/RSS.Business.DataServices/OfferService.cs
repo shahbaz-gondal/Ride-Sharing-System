@@ -8,15 +8,15 @@ namespace RSS.Business.DataServices
 {
     public class OfferService : IOfferService
     {
-        private readonly IRepository<Offer> _DbContext;
-        public OfferService(IRepository<Offer> dbContext)
+        private readonly IUnitOfWork _UnitOfWork;
+        public OfferService(IUnitOfWork unitOfWork)
         {
-            _DbContext = dbContext;
+            _UnitOfWork = unitOfWork;
         }
 
         public List<OfferModel> GetAll()
         {
-            var allOffersList = _DbContext.GetAll();
+            var allOffersList = _UnitOfWork.offers.GetAll();
             var OffersList = allOffersList.Select(x => new OfferModel
             {
                 Id = x.Id,
@@ -31,7 +31,7 @@ namespace RSS.Business.DataServices
         }
         public List<OfferModel> myOffers(int userId)
         {
-            var myAllOffers = _DbContext.Get(x => x.UserId == userId).ToList();
+            var myAllOffers = _UnitOfWork.offers.Get(x => x.UserId == userId).ToList();
             var MyOffers = myAllOffers.Select(x => new OfferModel
             {
                 Id = x.Id,
@@ -48,7 +48,7 @@ namespace RSS.Business.DataServices
         {
             fromCity = fromCity.Trim().ToLower();
             toCity = toCity.Trim().ToLower();
-            var allOffers = _DbContext.Get(x => x.FromCity.ToLower().Contains(fromCity)
+            var allOffers = _UnitOfWork.offers.Get(x => x.FromCity.ToLower().Contains(fromCity)
             && x.ToCity.ToLower().Contains(toCity)).ToList();
             var searchOffers = allOffers.Select(x => new OfferModel
             {
@@ -64,7 +64,7 @@ namespace RSS.Business.DataServices
         }
         public void Add(OfferModel model)
         {
-            _DbContext.Add(new Offer
+            _UnitOfWork.offers.Add(new Offer
             {
                 Id = model.Id,
                 FromCity = model.FromCity,
@@ -74,10 +74,11 @@ namespace RSS.Business.DataServices
                 Status = model.Status,
                 UserId = model.UserId
             });
+            _UnitOfWork.Save();
         }
         public void Update(OfferModel model)
         {
-            _DbContext.Update(new Offer
+            _UnitOfWork.offers.Update(new Offer
             {
                 Id = model.Id,
                 FromCity = model.FromCity,
@@ -87,13 +88,15 @@ namespace RSS.Business.DataServices
                 Status = model.Status,
                 UserId = model.UserId
             });
+            _UnitOfWork.Save();
         }
         public void Delete(int id)
         {
-            var offer = _DbContext.Get(x => x.Id == id).FirstOrDefault();
+            var offer = _UnitOfWork.offers.Get(x => x.Id == id).FirstOrDefault();
             if (offer != null)
             {
-                _DbContext.Delete(offer);
+                _UnitOfWork.offers.Delete(offer);
+                _UnitOfWork.Save();
             }
         }
     }

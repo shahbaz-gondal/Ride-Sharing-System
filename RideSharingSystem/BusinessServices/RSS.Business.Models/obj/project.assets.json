@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\shahb\\.nuget\\packages\\": {}
+    "C:\\Users\\shahfmuh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
+      "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
       "projectName": "RSS.Business.Models",
-      "projectPath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
-      "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
-      "outputPath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\obj\\",
+      "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
+      "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

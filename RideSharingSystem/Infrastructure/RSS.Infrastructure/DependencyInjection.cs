@@ -15,7 +15,12 @@ namespace RSS.Infrastructure
             services.AddDbContext<RideSharingDbContext>(
                 options => options.UseSqlServer(configuration.GetConnectionString("DbConnection")));
 
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IOfferRepository, OfferRepository>();
+            services.AddScoped<IRequestRepository, RequestRepository>();
+
             services.AddScoped<IRequestService, RequestService>();
             services.AddScoped<IOfferService, OfferService>();
             services.AddScoped<IUserService, UserService>();

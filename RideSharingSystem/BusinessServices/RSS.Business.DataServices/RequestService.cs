@@ -8,14 +8,14 @@ namespace RSS.Business.DataServices
 {
     public class RequestService:IRequestService
     {
-        private readonly IRepository<Request> _DBcontext;
-        public RequestService(IRepository<Request> DBcontext)
+        private readonly IUnitOfWork _UnitOfWork;
+        public RequestService(IUnitOfWork unitOfWork)
         {
-            _DBcontext = DBcontext;
+            _UnitOfWork = unitOfWork;
         }
         public List<RequestModel> GetAll()
         {
-            var allRequestsList = _DBcontext.GetAll();
+            var allRequestsList = _UnitOfWork.requests.GetAll();
             var RequestsList = allRequestsList.Select(x => new RequestModel
             {
                 Id = x.Id,
@@ -30,7 +30,7 @@ namespace RSS.Business.DataServices
         }
         public List<RequestModel> myRequests(int userId)
         {
-            var myAllRequests = _DBcontext.Get(x => x.UserId == userId).ToList();
+            var myAllRequests = _UnitOfWork.requests.Get(x => x.UserId == userId).ToList();
             var MyRequests = myAllRequests.Select(x => new RequestModel
             {
                 Id = x.Id,
@@ -47,7 +47,7 @@ namespace RSS.Business.DataServices
         {
             fromCity = fromCity.Trim().ToLower();
             toCity = toCity.Trim().ToLower();
-            var allRequests = _DBcontext.Get(x => x.FromCity.ToLower().Contains(fromCity)
+            var allRequests = _UnitOfWork.requests.Get(x => x.FromCity.ToLower().Contains(fromCity)
             && x.ToCity.ToLower().Contains(toCity)).ToList();
 
             var searchRequests = allRequests.Select(x => new RequestModel
@@ -64,7 +64,7 @@ namespace RSS.Business.DataServices
         }
         public void Add(RequestModel model)
         {
-            _DBcontext.Add(new Request { 
+            _UnitOfWork.requests.Add(new Request { 
                 Id=model.Id,
                 FromCity=model.FromCity,
                 ToCity=model.ToCity,
@@ -73,26 +73,29 @@ namespace RSS.Business.DataServices
                 Status = model.Status,
                 UserId = model.UserId
             });
+            _UnitOfWork.Save();
         }
         public void Update(RequestModel model)
         {
-            var entity = _DBcontext.Get(x => x.Id == model.Id).FirstOrDefault();
-            if(entity != null)
+            _UnitOfWork.requests.Update(new Request
             {
-                entity.FromCity = model.FromCity;
-                entity.ToCity = model.ToCity;
-                entity.DepartureDateTime = model.DepartureDateTime;
-                entity.Fare = model.Fare;
-                entity.Status = model.Status;
-                entity.UserId = model.UserId;
-            }
+                Id = model.Id,
+                FromCity = model.FromCity,
+                ToCity = model.ToCity,
+                DepartureDateTime = model.DepartureDateTime,
+                Fare = model.Fare,
+                Status = model.Status,
+                UserId = model.UserId
+            });
+            _UnitOfWork.Save();
         }
         public void Delete(int id)
         {
-            var request = _DBcontext.Get(x=>x.Id==id).FirstOrDefault();
+            var request = _UnitOfWork.requests.Get(x=>x.Id==id).FirstOrDefault();
             if(request != null)
             {
-                _DBcontext.Delete(request);
+                _UnitOfWork.requests.Delete(request);
+                _UnitOfWork.Save();
             }
         }
     }
