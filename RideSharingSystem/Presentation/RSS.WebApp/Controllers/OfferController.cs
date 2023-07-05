@@ -25,7 +25,7 @@ namespace RSS.WebApp.Controllers
             }
             else
             {
-                return View(_offerService.SearchRequest(fromCity, toCity));
+                return View(_offerService.SearchOffers(fromCity, toCity));
             }
         }
         [Authorize]

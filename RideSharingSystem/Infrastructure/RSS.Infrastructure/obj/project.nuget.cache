@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lJ8nRYYh9flijRKs+FNGNdpvljyNY/yA/a8bHJUBS90g8S/EKNkajsoQFx+JZRYgNZIL2YqIqx2QlCd2iYfHmA==",
+  "dgSpecHash": "0EZEXoAgLfMhFwCqAjaD3G/7cs3p2OCS+pHbCwXrlPqZuhpG86aNFh53U+vcUlv+je2ikbkcLc3K9JOI5DENOg==",
   "success": true,
   "projectFilePath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shahfmuh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
@@ -21,7 +22,7 @@
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

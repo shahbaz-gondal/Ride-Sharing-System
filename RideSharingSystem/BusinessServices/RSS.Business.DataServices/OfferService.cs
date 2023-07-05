@@ -1,6 +1,6 @@
-﻿using RSS.Business.Interfaces;
+﻿using AutoMapper;
+using RSS.Business.Interfaces;
 using RSS.Business.Models;
-using RSS.Data;
 using RSS.Data.Interfaces;
 using RSS.Data.Models;
 
@@ -9,85 +9,46 @@ namespace RSS.Business.DataServices
     public class OfferService : IOfferService
     {
         private readonly IUnitOfWork _UnitOfWork;
-        public OfferService(IUnitOfWork unitOfWork)
+        private readonly IMapper _mapper;
+        public OfferService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _UnitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
         public List<OfferModel> GetAll()
         {
             var allOffersList = _UnitOfWork.offers.GetAll();
-            var OffersList = allOffersList.Select(x => new OfferModel
-            {
-                Id = x.Id,
-                FromCity = x.FromCity,
-                ToCity = x.ToCity,
-                DepartureDateTime = x.DepartureDateTime,
-                Cost = x.Cost,
-                Status = x.Status,
-                UserId = x.UserId
-            }).ToList();
+            var OffersList = _mapper.Map<List<OfferModel>>(allOffersList);
             return OffersList;
         }
         public List<OfferModel> myOffers(int userId)
         {
             var myAllOffers = _UnitOfWork.offers.Get(x => x.UserId == userId).ToList();
-            var MyOffers = myAllOffers.Select(x => new OfferModel
-            {
-                Id = x.Id,
-                FromCity = x.FromCity,
-                ToCity = x.ToCity,
-                DepartureDateTime = x.DepartureDateTime,
-                Cost = x.Cost,
-                Status = x.Status,
-                UserId = x.UserId
-            }).ToList();
+            var MyOffers = _mapper.Map<List<OfferModel>>(myAllOffers);
             return MyOffers;
         }
-        public List<OfferModel> SearchRequest(string fromCity, string toCity)
+        public List<OfferModel> SearchOffers(string fromCity, string toCity)
         {
             fromCity = fromCity.Trim().ToLower();
             toCity = toCity.Trim().ToLower();
+
             var allOffers = _UnitOfWork.offers.Get(x => x.FromCity.ToLower().Contains(fromCity)
             && x.ToCity.ToLower().Contains(toCity)).ToList();
-            var searchOffers = allOffers.Select(x => new OfferModel
-            {
-                Id = x.Id,
-                FromCity = x.FromCity,
-                ToCity = x.ToCity,
-                DepartureDateTime = x.DepartureDateTime,
-                Cost = x.Cost,
-                Status = x.Status,
-                UserId = x.UserId
-            }).ToList();
+
+            var searchOffers = _mapper.Map<List<OfferModel>>(allOffers);
             return searchOffers;
         }
         public void Add(OfferModel model)
         {
-            _UnitOfWork.offers.Add(new Offer
-            {
-                Id = model.Id,
-                FromCity = model.FromCity,
-                ToCity = model.ToCity,
-                DepartureDateTime = model.DepartureDateTime,
-                Cost = model.Cost,
-                Status = model.Status,
-                UserId = model.UserId
-            });
+            var entity = _mapper.Map<Offer>(model);
+            _UnitOfWork.offers.Add(entity);
             _UnitOfWork.Save();
         }
         public void Update(OfferModel model)
         {
-            _UnitOfWork.offers.Update(new Offer
-            {
-                Id = model.Id,
-                FromCity = model.FromCity,
-                ToCity = model.ToCity,
-                DepartureDateTime = model.DepartureDateTime,
-                Cost = model.Cost,
-                Status = model.Status,
-                UserId = model.UserId
-            });
+            var entity = _mapper.Map<Offer>(model);
+            _UnitOfWork.offers.Update(entity);
             _UnitOfWork.Save();
         }
         public void Delete(int id)

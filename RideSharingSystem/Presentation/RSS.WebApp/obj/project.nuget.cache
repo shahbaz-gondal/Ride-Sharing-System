@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SZToAgpAHdtCN0/jjEQuIy39oHolY1qxd/l5IS62I7QuPSRgYYD+/AaOGG6e7Gz/B9HtGofFCz5euCa7xUsmOA==",
+  "dgSpecHash": "5Fsbq0NHoKh6LyCxx0aQBCOO7o3gmcF3Qom9NpcBKzq5pk1oBIQrRZD3DjPHmiQBfR8b6TBte1fsAMqMmhr2tQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Presentation\\RSS.WebApp\\RSS.WebApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shahfmuh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -43,7 +44,7 @@
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.codeanalysis.visualbasic.workspaces\\4.0.0\\microsoft.codeanalysis.visualbasic.workspaces.4.0.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.0.0\\microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.codeanalysis.workspaces.msbuild\\4.0.0\\microsoft.codeanalysis.workspaces.msbuild.4.0.0.nupkg.sha512",
-    "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.diasymreader\\1.3.0\\microsoft.diasymreader.1.3.0.nupkg.sha512",
