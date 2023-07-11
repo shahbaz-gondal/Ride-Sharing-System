@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0EZEXoAgLfMhFwCqAjaD3G/7cs3p2OCS+pHbCwXrlPqZuhpG86aNFh53U+vcUlv+je2ikbkcLc3K9JOI5DENOg==",
+  "dgSpecHash": "TK3TdmScSyFKFAX6V2KtGSYigtPd44iI6qd71wyFAHWuO8as9XxPZR9KUMkdUZtDQ78vbaH4Um8gRO4zAkXOIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shahfmuh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\shahfmuh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
@@ -20,6 +21,7 @@
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.session\\2.2.0\\microsoft.aspnetcore.session.2.2.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\shahfmuh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

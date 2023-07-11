@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Authentication.Cookies;
 using RSS.Infrastructure;
 
 namespace RSS.WebApp
@@ -12,24 +11,7 @@ namespace RSS.WebApp
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.SetupDI(builder.Configuration);
-
-
-            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(option =>
-                {
-                    option.ExpireTimeSpan = TimeSpan.FromMinutes(5 * 1);
-                    option.LoginPath = "/Account/LogIn";
-                    option.AccessDeniedPath = "/Account/LogIn";
-                });
-            builder.Services.AddSession(option =>
-            {
-                option.IdleTimeout = TimeSpan.FromMinutes(5 * 1);
-                option.Cookie.HttpOnly = true;
-                option.Cookie.IsEssential = true;
-            });
-
-
+            builder.Services.SetupDI(builder.Configuration);           
 
             var app = builder.Build();
 
