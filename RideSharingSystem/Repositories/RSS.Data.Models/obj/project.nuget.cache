@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1XjSSAxA5y91yTz8nFaAjaw0mOq9U4/t1Sc6IIbNXWSt0Z4niK60G52cIqBnEr1Q0lE/t9oWqDrkdIRiB3U+9A==",
+  "dgSpecHash": "bVMZZdi454wUgM0uEn7eTZ1mCQU6ZdNBQ3z8uQFCco1L2QwgulNhhimnbyOWkHNAXKgFjQtOBMoiXLI/H0aWlQ==",
   "success": true,
-  "projectFilePath": "E:\\BootCamp Contour Software\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
+  "projectFilePath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

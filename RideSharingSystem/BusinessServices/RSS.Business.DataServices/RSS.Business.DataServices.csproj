@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Repositories\RSS.Data\RSS.Data.csproj" />
     <ProjectReference Include="..\RSS.Business.Interfaces\RSS.Business.Interfaces.csproj" />
     <ProjectReference Include="..\RSS.Business.Models\RSS.Business.Models.csproj" />

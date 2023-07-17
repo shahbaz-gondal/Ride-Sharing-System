@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using RSS.Business.DataServices;
@@ -15,7 +16,28 @@ namespace RSS.Infrastructure
             services.AddDbContext<RideSharingDbContext>(
                 options => options.UseSqlServer(configuration.GetConnectionString("DbConnection")));
 
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie((CookieOptions)=>
+                {
+                    CookieOptions.ExpireTimeSpan = TimeSpan.FromMinutes(5 * 1);
+                    CookieOptions.LoginPath = "/Account/LogIn";
+                    CookieOptions.AccessDeniedPath = "/Account/LogIn";
+                });
+            services.AddSession (options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(5 * 1);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddAutoMapper(typeof(BusinessEntityMappings));
+
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IOfferRepository, OfferRepository>();
+            services.AddScoped<IRequestRepository, RequestRepository>();
+
             services.AddScoped<IRequestService, RequestService>();
             services.AddScoped<IOfferService, OfferService>();
             services.AddScoped<IUserService, UserService>();

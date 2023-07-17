@@ -6,7 +6,7 @@ namespace RSS.Business.Interfaces
     {
         public List<OfferModel> GetAll();
         public List<OfferModel> myOffers(int userId);
-        public List<OfferModel> SearchRequest(string fromCity, string toCity);
+        public List<OfferModel> SearchOffers(string fromCity, string toCity);
         public void Add(OfferModel model);
         public void Update(OfferModel model);
         public void Delete(int id);

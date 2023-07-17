@@ -5,11 +5,9 @@ namespace RSS.Data
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        private readonly RideSharingDbContext _context;
         protected readonly DbSet<TEntity> _dbSet;
         public Repository(RideSharingDbContext context)
         {
-            _context = context;
             _dbSet = context.Set<TEntity>();
         }
         public IList<TEntity> GetAll()
@@ -23,18 +21,15 @@ namespace RSS.Data
         public void Add(TEntity entity)
         {
             _dbSet.Add(entity);
-            _context.SaveChanges();
         }
         public void Update(TEntity entity)
         {
             _dbSet.Update(entity);
-            _context.SaveChanges();
         }
 
         public void Delete(TEntity entity)
         {
             _dbSet.Remove(entity);
-            _context.SaveChanges();
         }
     }
 }
