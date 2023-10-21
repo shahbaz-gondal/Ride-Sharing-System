@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bVMZZdi454wUgM0uEn7eTZ1mCQU6ZdNBQ3z8uQFCco1L2QwgulNhhimnbyOWkHNAXKgFjQtOBMoiXLI/H0aWlQ==",
+  "dgSpecHash": "kNS/Pt4zpTj4BmEytTOEJU2Kix0eKAbE5jiK0PPynIVxsrxe5QcWKRkuwyT2RLjLjfI/K8oH3McxJadxYrwKHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
+  "projectFilePath": "C:\\MyProjects\\RideSharingSystem\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
