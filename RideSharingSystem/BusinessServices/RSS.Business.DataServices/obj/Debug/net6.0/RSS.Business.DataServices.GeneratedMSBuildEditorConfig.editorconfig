@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RSS.Business.DataServices
-build_property.ProjectDir = C:\MyProjects\RideSharingSystem\RideSharingSystem\BusinessServices\RSS.Business.DataServices\
+build_property.ProjectDir = C:\MyProjects\RideSharingSystem\Ride-Sharing-System\RideSharingSystem\BusinessServices\RSS.Business.DataServices\

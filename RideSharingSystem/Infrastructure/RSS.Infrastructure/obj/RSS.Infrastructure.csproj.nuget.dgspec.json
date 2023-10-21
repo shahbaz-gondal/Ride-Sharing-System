@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj": {}
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj": {
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj",
+        "projectUniqueName": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj",
         "projectName": "RSS.Business.DataServices",
-        "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj",
-        "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\obj\\",
+        "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj",
+        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj"
               },
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj"
               },
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj"
               }
             }
           }
@@ -71,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj": {
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj",
+        "projectUniqueName": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj",
         "projectName": "RSS.Business.Interfaces",
-        "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\obj\\",
+        "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,11 +99,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj"
               },
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
               }
             }
           }
@@ -133,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj": {
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
+        "projectUniqueName": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
         "projectName": "RSS.Business.Models",
-        "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
-        "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\obj\\",
+        "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\RSS.Business.Models.csproj",
+        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,21 +188,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj": {
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj",
+        "projectUniqueName": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj",
         "projectName": "RSS.Infrastructure",
-        "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\obj\\",
+        "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\RSS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Infrastructure\\RSS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -216,14 +216,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.DataServices\\RSS.Business.DataServices.csproj"
               },
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\BusinessServices\\RSS.Business.Interfaces\\RSS.Business.Interfaces.csproj"
               },
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj"
               }
             }
           }
@@ -271,21 +271,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj": {
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj",
+        "projectUniqueName": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj",
         "projectName": "RSS.Data.Interfaces",
-        "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\obj\\",
+        "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -299,8 +299,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
               }
             }
           }
@@ -330,21 +330,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
+        "projectUniqueName": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
         "projectName": "RSS.Data.Models",
-        "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
-        "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\obj\\",
+        "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -385,21 +385,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj": {
+    "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
+        "projectUniqueName": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
         "projectName": "RSS.Data",
-        "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
-        "packagesPath": "C:\\Users\\shahfmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\obj\\",
+        "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\RSS.Data.csproj",
+        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahfmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -413,11 +413,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Interfaces\\RSS.Data.Interfaces.csproj"
               },
-              "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\shahfmuh\\source\\repos\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
+              "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj": {
+                "projectPath": "C:\\MyProjects\\RideSharingSystem\\Ride-Sharing-System\\RideSharingSystem\\Repositories\\RSS.Data.Models\\RSS.Data.Models.csproj"
               }
             }
           }
@@ -465,7 +465,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

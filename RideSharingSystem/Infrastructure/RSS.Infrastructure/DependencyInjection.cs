@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +23,8 @@ namespace RSS.Infrastructure
                     CookieOptions.ExpireTimeSpan = TimeSpan.FromMinutes(5 * 1);
                     CookieOptions.LoginPath = "/Account/LogIn";
                     CookieOptions.AccessDeniedPath = "/Account/LogIn";
+                    CookieOptions.Cookie = new CookieBuilder
+                    { Name = "RideSharingSystemCookie" };
                 });
             services.AddSession (options =>
             {
